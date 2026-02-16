@@ -28,6 +28,7 @@ The design combines modern web technologies with a classic newspaper aesthetic, 
 ## 🛠️ Tech Stack
 
 ### Core Technologies
+
 - **Frontend Framework**: React 18.3.1
 - **Language**: TypeScript 5.5.3
 - **Build Tool**: Vite 5.4.2
@@ -36,6 +37,7 @@ The design combines modern web technologies with a classic newspaper aesthetic, 
 - **Backend Services**: Supabase 2.57.4
 
 ### Development Tools
+
 - **Code Quality**: ESLint 9.9.1
 - **CSS Processing**: PostCSS 8.4.35, Autoprefixer 10.4.18
 - **Type Checking**: TypeScript
@@ -84,18 +86,21 @@ project/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - **Node.js** 16+ installed
 - **npm** or **yarn** package manager
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd project
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
@@ -111,6 +116,7 @@ project/
 ```bash
 npm run build
 ```
+
 This creates an optimized production build in the `dist/` folder.
 
 ### Preview Production Build
@@ -123,17 +129,18 @@ npm run preview
 
 All scripts are defined in `package.json`:
 
-| Command | Purpose |
-|---------|---------|
-| `npm run dev` | Start development server with hot module replacement (HMR) |
-| `npm run build` | Create optimized production build |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint to check code quality |
-| `npm run typecheck` | Run TypeScript type checking without emitting files |
+| Command             | Purpose                                                    |
+| ------------------- | ---------------------------------------------------------- |
+| `npm run dev`       | Start development server with hot module replacement (HMR) |
+| `npm run build`     | Create optimized production build                          |
+| `npm run preview`   | Preview the production build locally                       |
+| `npm run lint`      | Run ESLint to check code quality                           |
+| `npm run typecheck` | Run TypeScript type checking without emitting files        |
 
 ## 🧩 Component Breakdown
 
 ### **Masthead Component** (`Masthead.tsx`)
+
 - Displays profile picture with border styling
 - Shows current date and location (Chennai, India)
 - Features the main title "The Daily Developer"
@@ -142,12 +149,14 @@ All scripts are defined in `package.json`:
 - Responsive grid layout for different screen sizes
 
 ### **Breaking News Component** (`BreakingNews.tsx`)
+
 - Featured introduction/bio section styled as "Breaking News"
 - Highlights key skills and professional goals
 - Uses decorative drop cap styling
 - Newspaper-style left border accent
 
 ### **Education Component** (`Education.tsx`)
+
 - **Current Degree**: B.Tech in Computer Science & Engineering (AI & ML) at VIT Chennai
 - **Current Year**: 2nd Year (2023–2027)
 - **CGPA**: 9.06
@@ -155,6 +164,7 @@ All scripts are defined in `package.json`:
 - **Previous Education**: CBSE Class XII with 98.2% (School Topper)
 
 ### **Experience Component** (`Experience.tsx`)
+
 - **AI & ML Intern** at MHCognition (Dec 2025 - Jan 2026)
   - AI chatbot development with NLP and RAG
   - HRM chatbot enhancement
@@ -164,7 +174,9 @@ All scripts are defined in `package.json`:
   - Tech stack evaluation and prototyping
 
 ### **Achievements Component** (`Achievements.tsx`)
+
 Features multiple certifications and recognitions:
+
 - 5th Place in VMedithon Hackathon (2025)
 - NPTEL Top 5% Certificates:
   - Data Science for Engineers
@@ -173,19 +185,24 @@ Features multiple certifications and recognitions:
 - FreeCodeCamp Responsive Web Design Certification
 
 ### **Projects Component** (`Projects.tsx`)
+
 Showcases major projects with full details:
+
 - Project title, description, and images
 - Technology stack used
 - GitHub and live demo links
 - Highlight of key achievement
 
 **Notable Projects**:
+
 - **MH Cockpit**: AI Flight Assistant using Google Gemini
 - **UPACS**: Unconscious Patient Autonomous Care System
 - And more...
 
 ### **Skills Component** (`Skills.tsx`)
+
 Organized skill categories:
+
 - **Programming Languages**: Python, Java, C, C++, JavaScript, HTML/CSS, SQL
 - **AI/ML Tools**: PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, NLP, RAG, LangChain
 - **Web & Backend**: React.js, Django, Flask, REST APIs
@@ -193,6 +210,7 @@ Organized skill categories:
 - **Databases**: MongoDB, SQL
 
 ### **Footer Component** (`Footer.tsx`)
+
 - Contact information
 - Social media links
 - Professional profiles and repositories
@@ -200,21 +218,25 @@ Organized skill categories:
 ## 🎨 Styling & Design
 
 ### Tailwind CSS Configuration
+
 - **Content Paths**: Configured for HTML and all TypeScript/TSX files
 - **Custom Theme**: Extended theme with custom colors and typography
 - **Responsive Design**: Mobile-first approach with Tailwind breakpoints (sm, md, lg, xl, 2xl)
 
 ### Color Palette
+
 - **Background**: `#f4f1ea` (Warm cream)
 - **Text**: `#1a1a1a` (Deep black)
 - **Borders**: `#1a1a1a` with varying thickness for visual hierarchy
 
 ### Typography
+
 - **Headers**: Playfair Display for elegant, large headlines
 - **Body**: Merriweather for readable, classic serif text
 - **Monospace**: For code snippets and technical details
 
 ### Responsive Breakpoints
+
 - **Mobile**: Default and `sm` (640px)
 - **Tablet**: `md` (768px)
 - **Desktop**: `lg` (1024px)
@@ -222,6 +244,7 @@ Organized skill categories:
 ## 📱 Responsive Features
 
 The portfolio is fully responsive:
+
 - **Mobile**: Single-column layout with optimized spacing
 - **Tablet**: Adjusted font sizes and 2-column sections
 - **Desktop**: Full 3-column grid with max-width container
@@ -230,35 +253,42 @@ The portfolio is fully responsive:
 ## 🔧 Configuration Files Explained
 
 ### `vite.config.ts`
+
 - Configures Vite as the build tool
 - Enables React plugin for JSX transformation
 - Optimizes **lucide-react** dependencies
 
 ### `tailwind.config.js`
+
 - Scans HTML and component files for class names
 - Sets up content paths for proper tree-shaking
 - Extends theme configuration
 
 ### `tsconfig.json` & `tsconfig.app.json`
+
 - Strict type checking enabled
 - ES2020 target for modern JavaScript
 - Support for JSX with React
 
 ### `eslint.config.js`
+
 - Enforces code quality standards
 - React and React Hooks linting rules
 - TypeScript support
 
 ### `postcss.config.js`
+
 - Integrates Tailwind CSS
 - Autoprefixes CSS for browser compatibility
 
 ## 🌐 Deployment
 
 ### Build Before Deployment
+
 ```bash
 npm run build
 ```
+
 The production-ready files are in the `dist/` folder.
 
 ### Deployment Options
@@ -284,17 +314,21 @@ The production-ready files are in the `dist/` folder.
 ## 📝 Usage & Customization
 
 ### Updating Personal Information
+
 - Edit component content directly in respective files
 - Update images in the `images/` folder
 - Modify color scheme in Tailwind classes
 
 ### Adding New Projects
+
 Edit `Projects.tsx` and add to the `projects` array with:
+
 - Title, description, image path
 - Technology stack array
 - GitHub and live links (optional)
 
 ### Modifying Styling
+
 - Global styles: `src/index.css`
 - Component-specific: Tailwind classes in TSX files
 - Theme colors: Update hex values in Tailwind classes
@@ -302,6 +336,7 @@ Edit `Projects.tsx` and add to the `projects` array with:
 ## 🔒 Environment Variables
 
 If using Supabase features:
+
 - Create a `.env` file in project root
 - Add your Supabase URL and API key
 - Reference in components as needed
@@ -317,6 +352,7 @@ If using Supabase features:
 ## 🤝 Contributing
 
 Contributions are welcome! To contribute:
+
 1. Create a new branch
 2. Make your changes
 3. Test thoroughly
