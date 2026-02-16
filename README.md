@@ -2,6 +2,8 @@
 
 A modern, retro-inspired portfolio website built with **React**, **TypeScript**, and **Tailwind CSS**. This project showcases a computer science student's professional journey, projects, skills, and achievements in an elegant newspaper-themed design.
 
+### Portfolio link - https://koppesh-portfolio.vercel.app/
+
 ## 🎯 Project Overview
 
 **The Daily Developer** is a creative portfolio website that reimagines a traditional developer portfolio as a newspaper publication. It displays:
