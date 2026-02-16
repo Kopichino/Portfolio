@@ -16,7 +16,7 @@ export const Projects = () => {
       title: "MH Cockpit — AI Flight Assistant",
       description:
         "Developed an intelligent aviation chatbot powered by Google Gemini 2.5 Flash Latest, delivering real-time, context-aware responses for pilot training and course inquiries. Engineered a full-stack system using FastAPI, MongoDB, and Pinecone to manage user data, conversation history, and semantic retrieval. Designed an aviation-themed interface with secure user onboarding and an admin dashboard for lead tracking and chat analytics.",
-      image: "public/MHC.png",
+      image: "/MHC.png",
       techStack: ["Google Gemini", "FastAPI", "MongoDB", "Pinecone", "React"],
       github: "https://github.com/Kopichino",
       highlight:
@@ -26,7 +26,7 @@ export const Projects = () => {
       title: "UPACS — Unconscious Patient Autonomous Care System",
       description:
         "Designed an AI-based system using ECG signals to predict patient states in critical care. Implemented advanced signal processing and machine learning models to detect anomalies and provide real-time alerts for healthcare professionals. The system achieved 95% accuracy in patient state prediction.",
-      image: "public/UPACS.jpg",
+      image: "/UPACS.jpg",
       techStack: ["Python", "TensorFlow", "ECG Analysis", "Healthcare AI"],
       github: "https://github.com/Kopichino/UPACS",
       highlight: "5th place at VMedithon Hackathon among 150+ teams",
@@ -35,7 +35,7 @@ export const Projects = () => {
       title: "Philosite — Philosophy Platform",
       description:
         "A visually immersive philosophy platform featuring GSAP scroll animations, custom JavaScript sliders, and pre-rendered Blender 3D assets for interactive storytelling. Creates an engaging experience for exploring philosophical concepts with cutting-edge web animation techniques and 3D visualization.",
-      image: "public/Philosite.png",
+      image: "/Philosite.png",
       techStack: ["JavaScript", "GSAP", "Blender 3D", "HTML5", "CSS3"],
       github: "https://github.com/Kopichino/Philosite",
       highlight:
@@ -45,7 +45,7 @@ export const Projects = () => {
       title: "Non-Linear PDE Solver PINN",
       description:
         "Physics-Informed Neural Network (PINN) for solving the 2D incompressible Navier–Stokes equations using the Taylor–Green vortex benchmark. Combines physics principles with deep learning to accurately solve complex partial differential equations without requiring traditional numerical solvers.",
-      image: "public/PDE.webp",
+      image: "/PDE.webp",
       techStack: [
         "PyTorch",
         "Physics-Informed Neural Networks",
@@ -60,7 +60,7 @@ export const Projects = () => {
       title: "Voxcoder — Voice Coding Assistant",
       description:
         "An intelligent voice-based coding assistant that converts natural language commands into executable code. Uses advanced NLP and speech recognition to understand programming intent and generate code snippets, comments, and documentation automatically.",
-      image: "public/Voxcoder.png",
+      image: "/Voxcoder.png",
       techStack: ["Python", "Speech Recognition", "NLP", "Deep Learning"],
       github: "https://github.com/Kopichino/Voxcoder",
       highlight: "AI-powered voice-to-code converter",
@@ -69,7 +69,7 @@ export const Projects = () => {
       title: "GAN-Based Auditory Attention Detection",
       description:
         "A Deep Learning-based Auditory Attention Detection (AAD) system designed to solve the 'Cocktail Party Problem' using EEG signals. Classifies and decodes which speaker a subject is attending to in multi-speaker environments, advancing brain-computer interface research.",
-      image: "public/AAD.png",
+      image: "/AAD.png",
       techStack: ["PyTorch", "GAN", "EEG Analysis", "Brain-Computer Interface"],
       github: "https://github.com/Kopichino",
       highlight: "Deep learning AAD system solving the Cocktail Party Problem",

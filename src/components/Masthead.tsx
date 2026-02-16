@@ -31,7 +31,7 @@ export const Masthead = () => {
         <div className="md:col-span-1 flex justify-center">
           <div className="w-40 h-48 border-4 border-[#1a1a1a] overflow-hidden bg-gray-200">
             <img
-              src="public/Koppesh.jpg"
+              src="/Koppesh.jpg"
               alt="Koppesh P"
               className="w-full h-full object-cover"
             />
