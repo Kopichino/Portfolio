@@ -18,7 +18,7 @@ export const Projects = () => {
         "Developed an intelligent aviation chatbot powered by Google Gemini 2.5 Flash Latest, delivering real-time, context-aware responses for pilot training and course inquiries. Engineered a full-stack system using FastAPI, MongoDB, and Pinecone to manage user data, conversation history, and semantic retrieval. Designed an aviation-themed interface with secure user onboarding and an admin dashboard for lead tracking and chat analytics.",
       image: "/MHC.png",
       techStack: ["Google Gemini", "FastAPI", "MongoDB", "Pinecone", "React"],
-      github: "https://github.com/Kopichino",
+      github: "https://github.com/Kopichino/Aviation-chatbot",
       highlight:
         "AI-powered real-time aviation chatbot with semantic retrieval",
     },
@@ -52,7 +52,7 @@ export const Projects = () => {
         "Navier-Stokes",
         "Scientific Computing",
       ],
-      github: "https://github.com/Kopichino",
+      github: "https://github.com/Kopichino/Non-Linear-PDE-Solver-PINN",
       highlight:
         "PINN-based solution for incompressible Navier-Stokes equations",
     },
@@ -71,7 +71,7 @@ export const Projects = () => {
         "A Deep Learning-based Auditory Attention Detection (AAD) system designed to solve the 'Cocktail Party Problem' using EEG signals. Classifies and decodes which speaker a subject is attending to in multi-speaker environments, advancing brain-computer interface research.",
       image: "/AAD.png",
       techStack: ["PyTorch", "GAN", "EEG Analysis", "Brain-Computer Interface"],
-      github: "https://github.com/Kopichino",
+      github: "https://github.com/Kopichino/Auditory-Attention-Detection",
       highlight: "Deep learning AAD system solving the Cocktail Party Problem",
     },
   ];
