@@ -43,7 +43,7 @@ export const Masthead = () => {
             Koppesh P
           </h2>
           <p className="text-lg md:text-xl tracking-wide uppercase font-semibold mb-4">
-            AI & ML Specialist | 3rd Year CSE Student @ VIT Chennai
+            AI & ML Specialist | 4th Year CSE Student @ VIT Chennai
           </p>
           <div className="border-t border-[#1a1a1a] pt-3 text-sm space-y-1">
             <p>

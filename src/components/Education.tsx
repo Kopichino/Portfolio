@@ -16,7 +16,7 @@ export const Education = () => {
           <p className="text-lg mb-1">B.Tech in Computer Science & Engineering (AI & ML)</p>
           <p className="text-sm uppercase tracking-wide mb-2">2023 – 2027 • 2nd Year</p>
           <div className="bg-[#1a1a1a] text-[#f4f1ea] inline-block px-3 py-1 text-sm font-bold mb-3">
-            CGPA: 9.06
+            CGPA: 9.04
           </div>
 
           <div className="mt-3">
